@@ -8,7 +8,7 @@ You can run each notebook in Google Colab.
 ## Content
 The proposed work was divided in 4 experiments: 
 
-**Experiment1** We designed 4 differents architectures for Convolutional Neural Networks to classify the Dementia stages in Alzheimer taking into account the original 4 classes. Due to the low performance of these experiments, for the next 3 experiments, we only consider the first 3 classes (we excluded the Moderate Demented class).
+- **Experiment 1:** We designed 4 differents architectures for Convolutional Neural Networks to classify the Dementia stages in Alzheimer taking into account the original 4 classes. Due to the low performance of these experiments, for the next 3 experiments, we only consider the first 3 classes (we excluded the Moderate Demented class).
 
 - In the second section, we used a TensorFlow Hub model to classify in two different ways the stages of Alzheimer: 1) using classic SVM classifier and 2) using fully connected layers. 
 
