@@ -16,7 +16,7 @@ The proposed work was divided in 4 experiments:
 
 - **Experiment 4:** We performed Transfer Learning from AlexNet. In this case, we designed a new architecture with the same first two layers of Alexnet. Four different tasks were implemented. The first is to train from scratch. The second experiment consist in making Transfer Learning without layer freezing. The third experiment consist in making Transfer Learning freezing only the first layer. And the last experiment, freezing the two layers from Alexnet.
 
-- **Presentation Slides:** In this document you can see slides with the summary of this work, highlighting the results obtained in each experiment, some discussion and conclusions.
+- **Presentation Slides:** In this document you can see some slides with the summary of this work, highlighting the results obtained in each experiment and the conclusions.
 
 ## Conclusions
 - The best result is obtained with TensorFlow Hub, we believe it is because this original model is trained with a large amount of images (1.2 million and  1000 categories) in order to obtain feature vectors or embeddings that are useful to classify images, which is our goal.
